@@ -44,7 +44,7 @@ jobs:
     - name: Commit changes
       id: commit
       run: |
-        git config --global user.email "10893582+pboymt@users.noreply.github.com"
+        git config --global user.email "hellosunxuejian@gmail.com"
         git config --global user.name "action_bot"
         git add .
         git commit -m "update: Update hosts file at ${{ steps.current-time.output.formattedTime }}"
